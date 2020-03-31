@@ -1,0 +1,48 @@
+body {
+    background: white url("images/background.gif") no-repeat;
+}
+
+li a {
+    color: green;
+}
+
+.containerSet {
+    position: fixed;
+    bottom: 5%;
+    right: 2.5%;
+    width: 5%;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.icon {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 10%;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.overlay {
+    position: fixed;
+    bottom: 5%;
+    right: 10%;
+    width: 80%;
+    display: none;
+}
+
+.container:hover .overlay {
+    display: block;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
